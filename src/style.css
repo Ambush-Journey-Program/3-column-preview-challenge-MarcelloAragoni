@@ -7,41 +7,7 @@
 
 .panel {
   display: flex;
-  margin-top: 1rem;
-  margin-left: 1rem;
-}
-
-@media screen and (min-width: 48rem) {
-  .panel {
-    width: 57rem;
-    flex-direction: row;
-  }
-
-  .column--sedans {
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-  }
-
-  .column--luxury {
-    border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-  }
-}
-
-@media screen and (max-width: 48rem) {
-  .panel {
-    flex-direction: column;
-  }
-
-  .column--sedans {
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-  }
-
-  .column--luxury {
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-  }
+  margin: 1rem;
 }
 
 .column {
@@ -120,4 +86,42 @@
 
 .button--green:hover {
   background-color: var(--darkcyan);
+}
+
+@media screen and (min-width: 48rem) {
+  .panel {
+    width: 57rem;
+    flex-direction: row;
+  }
+
+  .column--sedans {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+
+  .column--luxury {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  .panel {
+    flex-direction: column;
+  }
+
+  .column {
+    width: 90%;
+    padding: 0 1rem;
+  }
+
+  .column--sedans {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+
+  .column--luxury {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
 }
