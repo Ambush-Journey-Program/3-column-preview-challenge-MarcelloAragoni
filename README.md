@@ -51,3 +51,7 @@
 - [CSS](https://www.notion.so/CSS-ed673e98698e451491b47e1349a5ecba)
 - [Figma](https://www.notion.so/Figma-5377f1eeb90d4986889765b961b5c655)
 - [Git](https://www.notion.so/Git-c8011ab55c444ba28a9df713f86e55e9)
+
+## Preview
+
+https://user-images.githubusercontent.com/32502447/196521687-952dd1bc-719e-47cf-b350-a41eeaf8d8cb.mov
